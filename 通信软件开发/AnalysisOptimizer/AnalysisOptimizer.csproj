@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MySql\MySqlHelper.csproj" />
+    <ProjectReference Include="..\SIPForm\SIPForm.csproj" />
+    <ProjectReference Include="..\SIPPaser\SIPPaser.csproj" />
+  </ItemGroup>
+
+</Project>
